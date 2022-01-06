@@ -2,7 +2,9 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.container-flex{
+
+/* section-1 */
+.section-flex{
     display: flex;
     
 }
@@ -14,13 +16,14 @@ body{
  width: 300px;
  height: 300px;
  margin-bottom: 100px;
+ 
 }
-.headline{
+.border-left{
  border-left:5px solid green;
  font-size: 25px;
 }
-.headline h2{
-    color: rgb(128, 34, 58);
+.orange-color{
+    color: orange;
 }
 .button{
     background-color: crimson;
@@ -30,33 +33,46 @@ body{
     color: wheat;
     border-radius: 5px;  
 }
-/* 2nd part */
-.container-1{
-    margin-top: -40px;
-}
-.container-1 h1{
+
+/* section-2*/
+.section-2 h1{
     text-align: center;
     font-size: 40px;
 }
-.container-1 span{
-    color: rgb(27, 179, 7);
-}
 .bg-color-card{
-    background-color: yellowgreen;
     height: 500px;
     margin:5px;
     border-radius: 20px;
 }
+.bg-color-card-1{
+    background-color: plum;
+}
+.bg-color-card-2{
+    background-color: silver;
+}
+.bg-color-card-3{
+    background-color: tan;
+}
+.margin-top-minus{
+    margin-top: -150px;
+  }
 
+/* section-3 */
 .font-size{
     font-size:50px;
 }
 
-.image{
-    width: 1600px;
-    height: 500px;
+.half-width-image{
+    width: 600px;
+    height: 400px;
 }
 
+.malan-heading{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* footer design */
 .footer-design{
     background-color: midnightblue;
     text-align: center;
@@ -67,10 +83,5 @@ span{
     color: tomato;
     margin-left: 5px;
 }
-.section-4{
-    margin-top:-90px;
-}
-.section-6{
-    width: 300px;
-    height: æ;
-}  
+
+
