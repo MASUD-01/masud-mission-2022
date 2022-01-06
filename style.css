@@ -4,7 +4,7 @@ body{
 }
 .container-flex{
     display: flex;
-    margin-bottom: 100px;
+    
 }
 .half-width{
   width: 50%;
@@ -27,5 +27,48 @@ body{
     padding: 10px 30px;
     margin-top:10px;
     text-decoration: none;
-    color: wheat;    
+    color: wheat;
+    border-radius: 5px;  
 }
+/* 2nd part */
+.container-1{
+    margin-top: -40px;
+}
+.container-1 h1{
+    text-align: center;
+    font-size: 40px;
+}
+.container-1 span{
+    color: rgb(27, 179, 7);
+}
+.bg-color-card{
+    background-color: yellowgreen;
+    height: 500px;
+    margin:5px;
+    border-radius: 20px;
+}
+
+.font-size{
+    font-size:50px;
+}
+
+.image{
+    width: 1600px;
+    height: 500px;
+}
+
+.footer-design{
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
+span{
+    color: tomato;
+    margin-left: 5px;
+}
+.section-4{
+    margin-top:-90px;
+}
+
+    
