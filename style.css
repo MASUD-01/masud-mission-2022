@@ -20,6 +20,9 @@ body{
  border-left:5px solid green;
  font-size: 25px;
 }
+.border-left h1{
+    line-height: 27px;
+}
 .orange-color{
     color: orange;
 }
